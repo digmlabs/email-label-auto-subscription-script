@@ -16,6 +16,7 @@ The script also preserves the versioning (V 2) in the subscriptions file and mai
 * Root Access: Since the script modifies files under the Maildir structure, it requires sudo privileges to ensure the changes are applied correctly.
 
 **Usage**
+
 Prerequisites
 * Ensure you have sudo access to the server where the Maildir directories are located.
 * Make sure that the email accounts you wish to manage are correctly set up in the Maildir structure.
