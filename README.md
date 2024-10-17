@@ -43,5 +43,5 @@ Running the Script
     sudo systemctl restart dovecot
 
 **Contributors**
-**Karanbir Singh** - DigmLabs.com
+1. Karanbir Singh - DigmLabs.com
 
