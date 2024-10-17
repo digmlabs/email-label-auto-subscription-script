@@ -43,6 +43,14 @@ Running the Script
 3. Optionally, restart Dovecot to apply any changes:
     sudo systemctl restart dovecot
 
+**Configuration**
+* MAIL_DIR_BASE: This variable should point to the base directory where Maildir structures are stored (usually /home).
+* emails array: Add the email addresses that the script should manage.
+* Default folders: The default folders (like Sent, Trash) are specified in the default_folders array. Modify this if your system uses different folder names.
+
+**License**
+This script is licensed under the MIT License. You are free to use, modify, and distribute this script as needed.
+
 **Contributors**
 1. Karanbir Singh - DigmLabs.com
 
